@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "multiagent"
+version = "0.1.1"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+websockets = "^13.1"
+langchain-core = "^0.3.12"
+langgraph = "^0.2.39"
+pandas = "^2.2.3"
+pymongo = "^4.10.1"
+neo4j = "^5.25.0"
+langchain-community = "^0.3.3"
+langchain-openai = "^0.2.3"
+scikit-learn = "^1.5.2"
+sentence-transformers = "^3.2.1"
+py2neo = "^2021.2.4"
+langchain-anthropic = "^0.3.0"
+#chromadb = "^0.5.23"
+pypdf2 = "^3.0.1"
+pypdf = "^5.1.0"
+spacy = "^3.8.4"
+mysqlclient = "^2.2.7"
+langchain-neo4j = "^0.3.0"
+websocket-client = "^1.8.0"
+stomp-py = "^8.2.0"
+wstompy = "^0.1.0"
+stomper = "^0.4.3"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+build = "^1.2.2.post1"
+selenium = "^4.33.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
